@@ -8,9 +8,9 @@
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/wp-content/themes/yam",
-  "devUrl": "http://localhost:8888/yam",
-  "proxyUrl": "http://localhost:3000",
+  "publicPath": "/yam/wp-content/themes/yam",
+  "devUrl": "http://localhost:8888/yam/",
+  "proxyUrl": "http://localhost:8890/yam/",
   "cacheBusting": "[name]_[hash:8]",
   "watch": [
     "app/**/*.php",
