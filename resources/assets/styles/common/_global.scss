@@ -1,11 +1,7 @@
 // Reset
 
-.navbar .nav-item {
-  border-bottom: 3px solid transparent;
-
-  &.active {
-    border-bottom: 2px solid $primary;
-  }
+body {
+  padding-top: 75px;
 }
 
 .navbar-social-media {
@@ -22,14 +18,6 @@ h4,
   background: none;
   border: 2px solid $primary;
   border-radius: 0;
-
-  &.left-card {
-    border-right: 0;
-  }
-
-  &.right-card {
-    border-left: 0;
-  }
 }
 
 .btn {
@@ -41,16 +29,6 @@ h4,
 }
 
 // Sections
-
-.floating-apply {
-  position: fixed;
-  bottom: 50%;
-  right: -5%;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-}
 
 .hero {
   background-image: url('../images/background/hero.png');
@@ -126,5 +104,65 @@ h4,
       from { -moz-transform: rotate(0deg); }
       to { -moz-transform: rotate(360deg); }
     }
+  }
+}
+
+// Exclude Desktop
+
+@include media-breakpoint-down(md) {
+  .web-apply {
+    display: none !important;
+  }
+
+  .navbar-nav {
+    align-items: flex-start !important;
+  }
+
+  .experience .hands-container .line-up-container {
+    top: 30%;
+
+    .line-up {
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  .mobile-apply {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+  }
+}
+
+// Only Desktop
+
+@include media-breakpoint-up(lg) {
+  .navbar .nav-item {
+    border-bottom: 3px solid transparent;
+
+    &.active {
+      border-bottom: 2px solid $primary;
+    }
+  }
+
+  .card {
+    &.left-card {
+      border-right: 0;
+    }
+
+    &.right-card {
+      border-left: 0;
+    }
+  }
+
+  .floating-apply {
+    position: fixed;
+    bottom: 50%;
+    right: -5%;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
   }
 }

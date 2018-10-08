@@ -10,8 +10,14 @@
   });
 </script>
 
-<div class="floating-apply">
-  <a href="#" class="btn btn-secondary">
+<div class="floating-apply web-apply">
+  <a href="#" class="btn btn-outline-primary">
+    APPLY FOR TICKETS
+  </a>
+</div>
+
+<div class="floating-apply mobile-apply d-lg-none">
+  <a href="#" class="btn btn-secondary btn-block btn-lg">
     APPLY FOR TICKETS
   </a>
 </div>
@@ -62,15 +68,15 @@
       </p>
     </div>
   </div>
-  <div class="container-fluid p-5">
-    <div class="row no-gutters align-items-center mb-5">
-      <div class="col">
+  <div class="container-fluid p-lg-5">
+    <div class="row no-gutters align-items-center">
+      <div class="col-md-4 mb-4">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/venue/1.png" class="img-fluid" />
       </div>
-      <div class="col">
+      <div class="col-md-4 mb-4">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/venue/2.png" class="img-fluid" />
       </div>
-      <div class="col">
+      <div class="col-md-4 mb-4">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/venue/1.png" class="img-fluid" />
       </div>
     </div>
@@ -82,7 +88,7 @@
 
   <div class="hands-container">
     <div class="hands">
-      <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/hands.png" width="800" />
+      <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/hands.png" width="800" class="img-fluid" />
     </div>
     <div class="line-up-container">
       <div class="line-up d-flex flex-column justify-content-center">        
@@ -158,11 +164,11 @@
     </div>
 
     <div class="row no-gutters align-items-center my-5 pb-5">
-      <div class="left-card col-md-6 order-lg-2">
+      <div class="left-card col-md-6">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/shabat-dinner.png" class="img-fluid" />
       </div>
       <div class="col-md-6 text-left">
-        <div class="card left-card"> 
+        <div class="card right-card"> 
           <div class="card-body">
             <h4>SHABAT DINNER</h4>
             <p class="lead-text-uppercase">
@@ -175,11 +181,11 @@
 
 
     <div class="row no-gutters align-items-center my-5 pb-5">
-      <div class="col-md-6">
+      <div class="col-md-6 order-lg-2">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/chasing-coral.png" class="img-fluid" />
       </div>
       <div class="col-md-6 text-left">
-        <div class="card right-card"> 
+        <div class="card left-card"> 
           <div class="card-body">
             <h4>CHASING CORAL SCREENING</h4>
             <p class="lead-text-uppercase">
@@ -195,11 +201,11 @@
     </div>
 
     <div class="row no-gutters align-items-center my-5 pb-5">
-      <div class="col-md-6 order-lg-2">
+      <div class="col-md-6">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/litter-pickup.png" class="img-fluid" />
       </div>
       <div class="col-md-6 text-left">
-        <div class="card left-card"> 
+        <div class="card right-card"> 
           <div class="card-body">
             <h4>Litter pickUp EXPERIENCE</h4>
             <p class="lead-text-uppercase">
@@ -213,11 +219,11 @@
     </div>
 
     <div class="row no-gutters align-items-center my-5 pb-5">
-      <div class="col-md-6">
+      <div class="col-md-6 order-lg-2">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/adopt-a-reef.png" class="img-fluid" />
       </div>
       <div class="col-md-6 text-left">
-        <div class="card right-card"> 
+        <div class="card left-card"> 
           <div class="card-body">
             <h4>ADOPT A REEF</h4>
             <p class="lead-text-uppercase">
