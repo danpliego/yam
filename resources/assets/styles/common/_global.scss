@@ -24,6 +24,15 @@ h4,
   border-radius: 0;
 }
 
+.wpcf7-submit {
+  @extend .btn;
+  @extend .btn-lg;
+  @extend .btn-primary;
+
+  width: 100%;
+  margin-top: 1rem;
+}
+
 .btn-lg {
   padding: 1rem;
 }
@@ -35,7 +44,7 @@ h4,
   background-size: cover;
 
   .hands-hero {
-    background: #433631;
+    background: $dark;
     border-radius: 50%;
     opacity: 0.8;
     display: inline-block;
@@ -43,7 +52,6 @@ h4,
   }
 }
 
-.venue .row,
 .experience .row {
   img {
     -webkit-filter: grayscale(100%);
@@ -52,10 +60,28 @@ h4,
   }
 }
 
+.venue .row {
+  img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all 1s ease;
+
+    &:hover {
+      -webkit-filter: none;
+      filter: none;
+    }
+  }
+}
+
 .venue {
   margin-top: -15rem;
   padding-top: 12rem;
   background-image: url('../images/background/venue.png');
+  background-size: cover;
+}
+
+.page {
+  background-image: url('../images/background/experience.png');
   background-size: cover;
 }
 
@@ -164,5 +190,13 @@ h4,
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
+  }
+}
+
+// Only Desktop
+
+@media (min-width: 1500px) {
+  .floating-apply {
+    right: 0%;
   }
 }

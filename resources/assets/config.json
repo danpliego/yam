@@ -8,7 +8,7 @@
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/yam/wp-content/themes/yam",
+  "publicPath": "/wp-content/themes/yam",
   "devUrl": "http://localhost:8888/yam/",
   "proxyUrl": "http://localhost:8890/yam/",
   "cacheBusting": "[name]_[hash:8]",

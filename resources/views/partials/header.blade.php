@@ -11,33 +11,33 @@
           TULUM.
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">2019</a>
-          <a class="dropdown-item" href="#">2018</a>
+          <a class="dropdown-item" href="<?php echo esc_url( home_url( '/' ) ); ?>">2019</a>
+          <a class="dropdown-item" href="<?php echo esc_url( home_url( '/tulum18' ) ); ?>">2018</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">ACAPULCO.</a>
+        <a class="nav-link" href="<?php echo esc_url( home_url( '/acapulco' ) ); ?>">ACAPULCO.</a>
       </li>
       <li class="nav-item mx-3 d-none d-lg-block">
-        <a href="#">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
           <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/yam-logo.png" height="35px" />
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">MYKONOS.</a>
+        <a class="nav-link" href="<?php echo esc_url( home_url( '/mykonos' ) ); ?>">MYKONOS.</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">ABOUT.</a>
+        <a class="nav-link" href="<?php echo esc_url( home_url( '/about' ) ); ?>">ABOUT.</a>
       </li>
     </ul>
     <ul class="navbar-nav navbar-social-media d-none d-lg-flex">
       <li class="nav-item">
-        <a href="https://www.facebook.com/YAMCELEBRATION/" class="nav-link px-3">
+        <a href="https://www.facebook.com/YAMCELEBRATION/" class="nav-link px-3" target="_blank">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
       <li class="nav-item">
-        <a href="https://www.instagram.com/yamcelebration/" class="nav-link px-3">
+        <a href="https://www.instagram.com/yamcelebration/" class="nav-link px-3" target="_blank">
           <i class="fab fa-instagram"></i>
         </a>
       </li>
