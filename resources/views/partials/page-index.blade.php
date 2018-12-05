@@ -69,18 +69,18 @@
     </div>
   </div>
   <div class="container-fluid p-lg-5">
-    <div class="row no-gutters align-items-center px-4">
-      <div class="col-md-6 mb-4">
-        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/venue/1.jpg" class="img-fluid" />
+    <div class="row align-items-center px-4">
+      <div class="col-sm-6 col-lg-3 mb-4">
+        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/venue/1.png" class="img-fluid" />
       </div>
-      <div class="col-md-6 mb-4">
-        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/venue/2.jpg" class="img-fluid" />
+      <div class="col-sm-6 col-lg-3 mb-4">
+        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/venue/2.png" class="img-fluid" />
       </div>
-      <div class="col-md-6 mb-4">
-        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/venue/3.jpg" class="img-fluid" />
+      <div class="col-sm-6 col-lg-3 mb-4">
+        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/venue/3.png" class="img-fluid" />
       </div>
-      <div class="col-md-6 mb-4">
-        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/venue/4.jpg" class="img-fluid" />
+      <div class="col-sm-6 col-lg-3 mb-4">
+        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/venue/4.png" class="img-fluid" />
       </div>
     </div>
   </div>
@@ -103,76 +103,76 @@
   <div class="container">  
     <div class="line-up row">
 
-      <a class="col-4" href="https://soundcloud.com/solselectas">
+      <a class="col-6 col-lg-4" href="https://soundcloud.com/solselectas">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/lineup/SABO.png" class="img-fluid" />
         <h4 class="text-primary">SABO</h4>
-        <p class="text-primary">Sol Selectas</p>
+        <small class="text-primary">(Sol Selectas)</small>
       </a>
 
-      <a class="col-4" href="https://soundcloud.com/seth-schwarz">
+      <a class="col-6 col-lg-4" href="https://soundcloud.com/seth-schwarz">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/lineup/SETH.png" class="img-fluid" />
         <h4 class="text-primary">SETH SCHWARZ</h4>
-        <p class="text-primary">Bar 25 / Katermukke</p>
+        <small class="text-primary">(Bar 25 / Katermukke)</small>
       </a>
 
-      <a class="col-4" href="https://soundcloud.com/valentinhuedo">
+      <a class="col-6 col-lg-4" href="https://soundcloud.com/valentinhuedo">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/lineup/VALENTIN.png" class="img-fluid" />
         <h4 class="text-primary">VALENTIN HUEDO</h4>
-        <p class="text-primary">WooMoon Ibiza / IBIZA SONICA</p>
+        <small class="text-primary">(WooMoon Ibiza / IBIZA SONICA)</small>
       </a>
 
-      <a class="col-4 mb-3">
+      <a class="col-6 col-lg-4 mb-3">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/lineup/GANADAIA.png" class="img-fluid" />
         <h4 class="text-primary">GANDAIA</h4>
-        <p class="text-primary">ILS / Mayan Warrior</p>
+        <small class="text-primary">(ILS / Mayan Warrior)</small>
       </a>
 
-      <a class="col-4 mb-3" href="https://soundcloud.com/ilonalica">
+      <a class="col-6 col-lg-4 mb-3" href="https://soundcloud.com/ilonalica">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/lineup/LICA.png" class="img-fluid" />
         <h4 class="text-primary">LICA</h4>
-        <p class="text-primary">Scorpios Mykonos</p>
+        <small class="text-primary">(Scorpios Mykonos)</small>
       </a>
 
-      <a class="col-4 mb-3" href="https://soundcloud.com/malin-linnea">
+      <a class="col-6 col-lg-4 mb-3" href="https://soundcloud.com/malin-linnea">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/lineup/MALIN.png" class="img-fluid" />
         <h4 class="text-primary">MALIN</h4>
-        <p class="text-primary">Scorpios Mykonos</p>
+        <small class="text-primary">(Scorpios Mykonos)</small>
       </a>
 
-      <a class="col-4 mb-3" href="https://soundcloud.com/carla-frayman">
+      <a class="col-6 col-lg-4 mb-3" href="https://soundcloud.com/carla-frayman">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/lineup/CARLITA.png" class="img-fluid" />
         <h4 class="text-primary">CARLITA</h4>
-        <p class="text-primary">Bespoke Musik / Cosmic Awakenings</p>
+        <small class="text-primary">(Bespoke Musik / Cosmic Awakenings)</small>
       </a>
 
-      <a class="col-4 mb-3" href="https://soundcloud.com/sora-paris">
+      <a class="col-6 col-lg-4 mb-3" href="https://soundcloud.com/sora-paris">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/lineup/SORA.png" class="img-fluid" />
         <h4 class="text-primary">SORA</h4>
-        <p class="text-primary">Horde / Crossings</p>
+        <small class="text-primary">(Horde / Crossings)</small>
       </a>
 
-      <a class="col-4 mb-3" href="https://soundcloud.com/2kuumba">
+      <a class="col-6 col-lg-4 mb-3" href="https://soundcloud.com/2kuumba">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/lineup/KUUMBA.png" class="img-fluid" />
         <h4 class="text-primary">KUUMBA</h4>
-        <p class="text-primary">Criminal Music</p>
+        <small class="text-primary">(Criminal Music)</small>
       </a>
 
-      <a class="col-4 mb-3" href="https://soundcloud.com/mendrixmusic">
+      <a class="col-6 col-lg-4 mb-3" href="https://soundcloud.com/mendrixmusic">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/lineup/MENDRIX.png" class="img-fluid" />
         <h4 class="text-primary">MENDRIX</h4>
-        <p class="text-primary">Calypso / Mayan Warrior</p>
+        <small class="text-primary">(Calypso / Mayan Warrior)</small>
       </a>
 
-      <a class="col-4 mb-3" href="https://www.instagram.com/alejandroglatt/">
+      <a class="col-6 col-lg-4 mb-3" href="https://www.instagram.com/alejandroglatt/">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/lineup/GLATT.png" class="img-fluid" />
         <h4 class="text-primary">Alejandro Glatt</h4>
-        <p class="text-primary">YAM</p>
+        <small class="text-primary">(YAM)</small>
       </a>
 
-      <a class="col-4 mb-3" href="https://soundcloud.com/isiaudi">
+      <a class="col-6 col-lg-4 mb-3" href="https://soundcloud.com/isiaudi">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/lineup/ISIAUDI.png" class="img-fluid" />
         <h4 class="text-primary">ISI AUDI</h4>
-        <p class="text-primary">YAM</p>
+        <small class="text-primary">(YAM)</small>
       </a>
 
     </div>
@@ -200,103 +200,6 @@
     </div>
 
     <div class="row no-gutters align-items-center my-5 pb-5">
-      <div class="col-md-5">
-        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/vr-diving.png" class="img-fluid" />
-      </div>
-      <div class="col-md-7 text-left">
-        <div class="card right-card"> 
-          <div class="card-body">
-            <h4>VR DIVING</h4>
-            <p class="lead-text-uppercase">
-              Virtual reality immersive experience 
-              <br><br>
-              - sensitize the public about the need to protect coral reefs. 
-              <br><br>
-              - learn and discus about how to increase sustainable ocean related activities  
-            </p>
-          </div>       
-        </div>
-      </div>
-    </div>
-
-    <div class="row no-gutters align-items-center my-5 pb-5">
-      <div class="left-card col-md-6">
-        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/HAVDALAH.png" class="img-fluid" />
-      </div>
-      <div class="col-md-6 text-left">
-        <div class="card right-card"> 
-          <div class="card-body">
-            <h4>MANGLAR SHABAT</h4>
-            <p class="lead-text-uppercase">
-              LOCATED IN AN AMAZING MANGLAR, 100M FROM CASA MALCA, THE CELEBRATION OF MOTZE SHABAT (END), A DECLARATION OF THE INTENTION TO END SHABAT AND START A NEW CYCLE
-            </p>
-            <p>
-              The Havdalah (Separation) ceremony is a multi-sensory ritual employing our faculties of speech, hearing, sight, smell and taste to define the boundaries that God set in creation “between the sacred and the everyday.”
-            </p>
-            <p>
-            Havdalah is done after nightfall on Saturday evening, which is when Shabbat ends. “Nightfall” is the point at which is grows dark enough for three medium-sized stars to become visible. Because making Havdalah involves actions that are forbidden on Shabbat.
-            </p>
-          </div>       
-        </div>
-      </div>
-    </div>
-
-
-    <div class="row no-gutters align-items-center my-5 pb-5">
-      <div class="col-md-6 order-lg-2">
-        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/chasing-coral.png" class="img-fluid" />
-      </div>
-      <div class="col-md-6 text-left">
-        <div class="card left-card"> 
-          <div class="card-body">
-            <h4>CHASING CORAL SCREENING</h4>
-            <p class="lead-text-uppercase">
-              OUTDOOR CINEMA SCREENING THE DOCUMENTAL ABOUT THE CORAL SITUATION AND HOW TO TREAT IT.
-            <br><br>
-              - FILMED BY <a href="https://www.imdb.com/name/nm2341611/?ref_=tt_ov_dr">Jeff Orlowski.</a>
-            <br><br>
-              - SCREENING IN LOOP ALL NIGHT LONG.
-            </p>
-          </div>       
-        </div>
-      </div>
-    </div>
-
-    <div class="row no-gutters align-items-center my-5 pb-5">
-      <div class="left-card col-md-6">
-        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/adopt-a-reef.png" class="img-fluid" />
-      </div>
-      <div class="col-md-6 text-left">
-        <div class="card right-card"> 
-          <div class="card-body">
-            <h4>ADOPT A REEF</h4>
-            <p class="lead-text-uppercase">
-              Every yam tulum ticket, will come with a personalized certificate of coral adoption.
-            <br><br>
-              - The adoption of corals helps the restoration of the reefs in mexico to encourage the increase of coral reefs.
-            </p>
-          </div>       
-        </div>
-      </div>
-    </div>
-
-    <div class="row no-gutters align-items-center my-5 pb-5">
-      <div class="col-md-6 order-lg-2">
-        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/fruit-healing.png" class="img-fluid" />
-      </div>
-      <div class="col-md-6 text-left">
-        <div class="card left-card"> 
-          <div class="card-body">
-            <h4>FRUIT HEALING</h4>
-            <p class="lead-text-uppercase">
-              Smell, peel and feel: Find your inner spirit trough fruit flavors, colors and textures. Let yourself go and experience this interactive and immersive experience. Let’s get fruity!
-            </p>
-          </div>       
-        </div>
-      </div>
-    </div>
-
-    <div class="row no-gutters align-items-center my-5 pb-5">
       <div class="left-card col-md-6">
         <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/kinky-school.png" class="img-fluid" />
       </div>
@@ -314,14 +217,20 @@
 
     <div class="row no-gutters align-items-center my-5 pb-5">
       <div class="col-md-6 order-lg-2">
-        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/pulque-bombs.png" class="img-fluid" />
+        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/HAVDALAH.png" class="img-fluid" />
       </div>
       <div class="col-md-6 text-left">
         <div class="card left-card"> 
           <div class="card-body">
-            <h4>PULQUE BOMBS</h4>
+            <h4>MANGLAR SHABAT</h4>
             <p class="lead-text-uppercase">
-              Experience PULQUE: an alcoholic beverage made from the fermented sap of the maguey (agave) plant. It has the color of milk, somewhat viscous consistency and a sour yeast-like taste.
+              LOCATED IN AN AMAZING MANGLAR, 100M FROM CASA MALCA, THE CELEBRATION OF MOTZE SHABAT (END), A DECLARATION OF THE INTENTION TO END SHABAT AND START A NEW CYCLE
+            </p>
+            <p>
+              The Havdalah (Separation) ceremony is a multi-sensory ritual employing our faculties of speech, hearing, sight, smell and taste to define the boundaries that God set in creation “between the sacred and the everyday.”
+            </p>
+            <p>
+            Havdalah is done after nightfall on Saturday evening, which is when Shabbat ends. “Nightfall” is the point at which is grows dark enough for three medium-sized stars to become visible. Because making Havdalah involves actions that are forbidden on Shabbat.
             </p>
           </div>       
         </div>
@@ -348,15 +257,89 @@
     </div>
 
     <div class="row no-gutters align-items-center my-5 pb-5">
+      <div class="col-md-5 order-lg-2">
+        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/vr-diving.png" class="img-fluid" />
+      </div>
+      <div class="col-md-7 text-left">
+        <div class="card left-card"> 
+          <div class="card-body">
+            <h4>VR DIVING</h4>
+            <p class="lead-text-uppercase">
+              Virtual reality immersive experience 
+              <br><br>
+              - sensitize the public about the need to protect coral reefs. 
+              <br><br>
+              - learn and discus about how to increase sustainable ocean related activities  
+            </p>
+          </div>       
+        </div>
+      </div>
+    </div>
+
+    <div class="row no-gutters align-items-center my-5 pb-5">
+      <div class="col-md-6 left-card">
+        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/fruit-healing.png" class="img-fluid" />
+      </div>
+      <div class="col-md-6 text-left">
+        <div class="card right-card"> 
+          <div class="card-body">
+            <h4>FRUIT HEALING</h4>
+            <p class="lead-text-uppercase">
+              Smell, peel and feel: Find your inner spirit trough fruit flavors, colors and textures. Let yourself go and experience this interactive and immersive experience. Let’s get fruity!
+            </p>
+          </div>       
+        </div>
+      </div>
+    </div>
+
+    <div class="row no-gutters align-items-center my-5 pb-5">
       <div class="col-md-6 order-lg-2">
-        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/hot-mezcal.png" class="img-fluid" />
+        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/chasing-coral.png" class="img-fluid" />
       </div>
       <div class="col-md-6 text-left">
         <div class="card left-card"> 
           <div class="card-body">
-            <h4>HOT MEZCAL</h4>
+            <h4>CHASING CORAL SCREENING</h4>
             <p class="lead-text-uppercase">
-              Feel the fire in your throat, while drinking mezcal in a unique way. Open your heart to receive the god’s drink.
+              OUTDOOR CINEMA SCREENING THE DOCUMENTAL ABOUT THE CORAL SITUATION AND HOW TO TREAT IT.
+            <br><br>
+              - FILMED BY <a href="https://www.imdb.com/name/nm2341611/?ref_=tt_ov_dr">Jeff Orlowski.</a>
+            <br><br>
+              - SCREENING IN LOOP ALL NIGHT LONG.
+            </p>
+          </div>       
+        </div>
+      </div>
+    </div>
+
+    <div class="row no-gutters align-items-center my-5 pb-5">
+      <div class="col-md-6 left-card">
+        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/pulque-bombs.png" class="img-fluid" />
+      </div>
+      <div class="col-md-6 text-left">
+        <div class="card right-card"> 
+          <div class="card-body">
+            <h4>PULQUE BOMBS</h4>
+            <p class="lead-text-uppercase">
+              Experience PULQUE: an alcoholic beverage made from the fermented sap of the maguey (agave) plant. It has the color of milk, somewhat viscous consistency and a sour yeast-like taste.
+            </p>
+          </div>       
+        </div>
+      </div>
+    </div>
+
+    <div class="row no-gutters align-items-center my-5 pb-5">
+      <div class="col-md-6 order-lg-2">
+        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/experience/adopt-a-reef.png" class="img-fluid" />
+      </div>
+      <div class="col-md-6 text-left">
+        <div class="card left-card"> 
+          <div class="card-body">
+            <h4>ADOPT A REEF</h4>
+            <p class="lead-text-uppercase">
+              Every yam tulum ticket, will come with a personalized certificate of coral adoption.
+            <br><br>
+              - The adoption of corals helps the restoration of the reefs in mexico to encourage the increase of coral reefs.
             </p>
           </div>       
         </div>
